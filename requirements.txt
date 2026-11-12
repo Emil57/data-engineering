@@ -1,0 +1,3 @@
+# Runtime dependencies (EMR already ships Spark; these are for local runs)
+pyspark>=3.5,<5
+numpy>=1.24

@@ -218,3 +218,11 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-specific
+data/*
+!data/.gitkeep
+spark-warehouse/
+metastore_db/
+derby.log
+infra/emr/config.env
